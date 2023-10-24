@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+
+    /*Dimensões*/
+    width: 300px;
+    height: 830px;
+
+    /*Espaçamento Interno*/
+
+    padding: 20px;
+
+    /*Estilo de Borda*/
+
+    border: 1px solid#ccc;
+    border-radius: 8px; /*Bordas arredondadas*/
+
+    /*Sombra*/
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /*Espaçamento Esterno*/
+
+    margin: 20px;
+
+
+    /*Outros*/
+
+    background-color: #fff; /*Cor de fundo do card*/
+    overflow: hidden; /*Esconde o conteúdo que ultrapassa o tamanho do card*/
+    transition: transform 0.2s; /*Animação suave para hover*/
+
+}
+
+ 
+
+.card:hover {
+    transform: scale(1.05); /* aumenta o card um pouco quando o mouse está sobre ele */
+}
+.imagem {
+    width: 100%; /* faz a imagem ocupar toda a largura do card */
+    border-radius: 6px 6px 0 0; /* bordas arredondadas apenas na parte superior */
+}
+
+ 
+
+.nome {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.caracteristicas {
+    font-size: 13px;
+}
+.descricao {
+
+    font-size: 18px;
+    
+
+}
+.preco{
+    font-weight: bold;
+    font-size: 25px;
+}
